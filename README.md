@@ -88,6 +88,18 @@ This will create participant-specific CSV files in `config/` (or `config/pseudor
 
 ---
 
+## Procedure
+
+- At the start of each run, the experimenter waits for the scanner trigger and presses `x` to advance.  
+- Participants are presented with a topic prompt on screen and told which partner they will be speaking with (human or chatbot).  
+- The participant speaks while their voice is recorded.  
+- After pressing `1`, the audio segment is transcribed (Whisper) and passed to the LLM for a response, which is then played back.  
+- This cycle repeats until the run time ends (~150 seconds).  
+- After each conversation, participants rate conversation quality and connectedness on a 1–4 scale.  
+- Data (logs, audio files, transcriptions, and ratings) are automatically saved in `data/<subject>/`.  
+
+---
+
 ## License
 
 This project is released under the [MIT License](LICENSE).  
