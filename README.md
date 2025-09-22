@@ -78,13 +78,13 @@ python main.py
 
 ## Generating Condition Files
 
-Before running the experiment, you can generate pseudorandomized condition files for each participant using:
+Before running the experiment, you must generate pseudorandomized condition files for each participant using:
 
 ```bash
 python randomize_conds.py
 ```
 
-This will create participant-specific CSV files in `config/` (or `config/pseudorandomized/` if set in the script).
+This will create participant-specific CSV files in `config/`.
 
 ---
 
