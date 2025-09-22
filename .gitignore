@@ -1,0 +1,21 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+
+# macOS system files
+.DS_Store
+
+# Logs and runtime files
+*.log
+*.pkl
+
+# Experiment data outputs
+data/
+
+# Conda / virtualenv
+*.conda
+*.env
+.venv/
+env/
+venv/
+

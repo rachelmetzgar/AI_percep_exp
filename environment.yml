@@ -1,0 +1,16 @@
+name: ai_percep
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - soundfile
+  - python-sounddevice
+  - ffmpeg
+  - pip
+  - pip:
+      - psychopy==2024.1.0
+      - openai
+      - openai-whisper
